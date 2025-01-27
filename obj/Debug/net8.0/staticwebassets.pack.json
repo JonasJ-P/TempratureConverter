@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Kurs\\c#main\\fcconverter\\fcconverter\\wwwroot\\converter.html",
+      "PackagePath": "staticwebassets\\converter.html"
+    },
+    {
+      "Id": "C:\\Kurs\\c#main\\fcconverter\\fcconverter\\wwwroot\\scripts.js",
+      "PackagePath": "staticwebassets\\scripts.js"
+    },
+    {
+      "Id": "C:\\Kurs\\c#main\\fcconverter\\fcconverter\\wwwroot\\styles.css",
+      "PackagePath": "staticwebassets\\styles.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.fcconverter.props",
+      "PackagePath": "build\\fcconverter.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.fcconverter.props",
+      "PackagePath": "buildMultiTargeting\\fcconverter.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.fcconverter.props",
+      "PackagePath": "buildTransitive\\fcconverter.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.fcconverter.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

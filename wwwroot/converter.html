@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add number</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="container">
+            <h1>Add number form</h1>
+
+            <div id="main">
+                <div id="formsection">
+                    <form method="POST" id="converterform" name="converterform">
+                        <label for="number">Number:</label>
+                        <input type="number" name="number" id="numberinput" required>
+
+                        <p>Please select the temperature scale you want to convert from and to:</p>
+
+                        <label for="fromDegree">From:</label>
+                        <select id="fromDegree" name="fromDegree" required>
+                            <option value="celcius">Celsius</option>
+                            <option value="fahrenheit">Fahrenheit</option>
+                            <option value="kelvin">Kelvin</option>
+                        </select>
+
+                        <label for="toDegree">To:</label>
+                        <select id="toDegree" name="toDegree" required>
+                            <option value="celcius">Celsius</option>
+                            <option value="fahrenheit">Fahrenheit</option>
+                            <option value="kelvin">Kelvin</option>
+                        </select>
+
+                        <button type="button" name="submitbutton" onclick="Converter()">Submit</button>
+                    </form>
+                </div>
+
+                <div id="tablesection">
+                    <p id="numbertablebody">
+                        <!-- Dynamic content will be inserted here -->
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <script src="scripts.js"></script>
+
+    </body>
+</html>

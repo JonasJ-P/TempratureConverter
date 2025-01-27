@@ -1,0 +1,101 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh;
+    text-align: center; /* Center text */
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    gap: 30px; /* Space between h1 and main content */
+    width: 100%;
+    max-width: 800px; /* Maximum width for large screens */
+}
+
+h1 {
+    color: #333;
+    margin: 0; /* No extra margin, it will be controlled by the gap */
+}
+
+#main {
+    display: flex;
+    flex-direction: column; /* Stack form and result sections vertically */
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+}
+
+#formsection {
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+#tablesection {
+    flex: 1;
+    padding: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+input[type="number"], select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#numbertablebody {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    #main {
+        flex-direction: column;
+        gap: 20px;
+    }
+    #formsection, #tablesection {
+        width: 100%;
+    }
+}

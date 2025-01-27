@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "NScoMzJmFiqXMXa+l3aP6GQ08eM7eontsP2WjCbSnXs=",
+  "Source": "fcconverter",
+  "BasePath": "_content/fcconverter",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "fcconverter\\wwwroot",
+      "Source": "fcconverter",
+      "ContentRoot": "C:\\Kurs\\c#main\\fcconverter\\fcconverter\\wwwroot\\",
+      "BasePath": "_content/fcconverter",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Kurs\\c#main\\fcconverter\\fcconverter\\wwwroot\\converter.html",
+      "SourceId": "fcconverter",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Kurs\\c#main\\fcconverter\\fcconverter\\wwwroot\\",
+      "BasePath": "_content/fcconverter",
+      "RelativePath": "converter.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\converter.html"
+    },
+    {
+      "Identity": "C:\\Kurs\\c#main\\fcconverter\\fcconverter\\wwwroot\\scripts.js",
+      "SourceId": "fcconverter",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Kurs\\c#main\\fcconverter\\fcconverter\\wwwroot\\",
+      "BasePath": "_content/fcconverter",
+      "RelativePath": "scripts.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\scripts.js"
+    },
+    {
+      "Identity": "C:\\Kurs\\c#main\\fcconverter\\fcconverter\\wwwroot\\styles.css",
+      "SourceId": "fcconverter",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Kurs\\c#main\\fcconverter\\fcconverter\\wwwroot\\",
+      "BasePath": "_content/fcconverter",
+      "RelativePath": "styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles.css"
+    }
+  ]
+}
